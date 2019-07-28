@@ -1,0 +1,5 @@
+imie = input('Jak masz na imie? ')
+wiek = int(input('Podaj swoj wiek, powiem Ci w ktorym roku bedziesz miec 100 lat '))
+year = str(2019 + (100 - wiek))
+print(imie)
+print('bedziesz miec sto lat w roku ' + year)
